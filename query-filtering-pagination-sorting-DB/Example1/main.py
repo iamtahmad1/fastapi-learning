@@ -42,4 +42,4 @@ def get_tasks(
     if search:
         query = query.filter(Task.title.ilike(f"%{search}%"))
 
-    return query.all()
+    return query.all

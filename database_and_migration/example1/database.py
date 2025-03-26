@@ -18,7 +18,7 @@ SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 class Task(Base):
     __tablename__ = "tasks"
 
-    id = Column(Integer, primary_key=True, index=True)
+    id = (Integer, primary_key=True, index=True)
     title = Column(String, nullable=False)
     description = Column(String)
     completed = Column(Boolean, default=False)
