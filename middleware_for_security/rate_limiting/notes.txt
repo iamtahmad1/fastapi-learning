@@ -1,0 +1,6 @@
+UseCases:
+
+✅ Preventing brute-force attacks (e.g., too many login attempts)
+✅ Avoiding API overuse (e.g., free-tier users get 100 requests/min)
+✅ Ensuring fair resource allocation (protects the backend from overload)
+

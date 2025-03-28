@@ -1,0 +1,9 @@
+✅ Common Use Cases:
+
+    Sending emails after user registration
+
+    Logging or auditing user actions
+
+    Processing long-running tasks (e.g., image processing)
+
+    Updating databases without slowing API response
